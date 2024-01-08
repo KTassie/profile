@@ -72,6 +72,7 @@ a:hover {
   height: 200px;
   border-radius: 10%;
   box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.75);
+  margin: 20px;
 }
 
 .list-inline > li {
