@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: D0A2F7;
+  background-color: #FC2065;
   text-align: center;
   color: white;
   padding: 50px;
@@ -27,7 +27,7 @@ a:hover {
 }
 
 .card {
-  background-color: purple;
+  background-color: #450130;
   padding: 10px;
   width: 500px;
   margin: 25px auto;
@@ -37,7 +37,7 @@ a:hover {
 }
 
 .card-socials {
-  background-color: purple;
+  background-color: #450130;
   font-weight: bold;
   padding: 10px;
   width: 500px;
