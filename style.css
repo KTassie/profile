@@ -1,0 +1,108 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: D0A2F7;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #F7EFE5;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: bolder;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  background: #ea00ff42;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: purple;
+  padding: 10px;
+  width: 500px;
+  margin: 25px auto;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card-socials {
+  background-color: purple;
+  font-weight: bold;
+  padding: 10px;
+  width: 500px;
+  margin: 25px auto;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.btn {
+  background: #00000035;
+  border-radius: 30px;
+  text-shadow: 3px 3px 3px #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: dotted #000000 2px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.btn:hover {
+  background: #ffffff25;
+  text-decoration: none;
+}
+
+#profile-pic {
+  width: 210px;
+  height: 200px;
+  border-radius: 10%;
+  box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
